@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<script>
+
+function sec_lowest_lar(n){
+
+var uniqa = n.sort(function(a,b){return a-b})
+
+var firstcount = 1;
+if(uniqa[firstcount] == uniqa[firstcount-1])
+{firstcount++}
+console.log(uniqa[firstcount])
+
+var lastcount = n.length-2
+if(uniqa[lastcount] == uniqa[lastcount-1])
+{lastcount--}
+console.log(uniqa[lastcount])
+}
+
+</script>
+
+</body>
+</html>

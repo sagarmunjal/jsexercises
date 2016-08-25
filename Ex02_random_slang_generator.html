@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+
+
+
+
+<script>
+
+var randomBodyParts = ['Face','Head','Neck','Legs']
+var randomInsultsAdjs = ['moribund','jejune','feckless','dopey']
+var randomWords = ['dog','priest','furniture','pot']
+
+var randomBodyPart = randomBodyParts[Math.floor(Math.random()*4)]
+var randomInsultsAdj = randomInsultsAdjs[Math.floor(Math.random()*4)]
+var randomWord = randomWords[Math.floor(Math.random()*4)]
+
+var randomInsult = ['Your', randomBodyPart , 'looks like a', randomInsultsAdj , randomWord + '!!!' ].join(' ')
+
+console.log(randomInsult);
+</script>
+
+</body>
+</html>

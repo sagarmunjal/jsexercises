@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<script>
+var button = document.createElement('button');
+button.setAttribute('id','demo');
+document.body.appendChild(button);
+document.getElementById('demo').innerHTML = "hello"
+document.getElementById('demo').addEventListener('click',myFunction)
+function myFunction(){var arr= [" I guess you should do it ", " You should not do it ", " this is not a good idea", "you should not do it today" , "you should go for a party instead"];
+var rand = Math.ceil(Math.random()*5)
+console.log(arr[rand])}
+
+
+</script>
+
+</body>
+</html>
